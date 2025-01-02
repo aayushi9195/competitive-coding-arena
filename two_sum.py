@@ -3,7 +3,6 @@ class Solution:
     # Time: O(N)
     # Space: O(N)
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-
         # number -> index
         s = {} 
         for i, n in enumerate(nums):
