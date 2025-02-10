@@ -34,6 +34,6 @@ class Solution:
 
 '''
 Note:
-1. Space can be reduce to O(1) in the above solution if we pick every i from 0 to N and expand around it to see if it is a palindrome or not.
+1. Space can be reduce to O(1) in the above solution if we pick every i from 0 to N and keep expanding around it in both directions while comparing characters to see if it is a palindrome or not.
 2. Check Manacher's algorithm for O(N) time and O(N) space. It is a bit complicated to understand and implement.
 '''
