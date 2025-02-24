@@ -20,7 +20,7 @@ class Solution:
                 return
             dfs(node.left)
             cnt -= 1
-            # We have reached the kth largest element
+            # We have reached the kth smallest element as inorder gives us the bst elements in a sorted order
             if cnt == 0:
                 res = node.val
                 return
