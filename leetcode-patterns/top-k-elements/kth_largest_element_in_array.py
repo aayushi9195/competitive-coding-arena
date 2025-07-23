@@ -12,3 +12,4 @@ class Solution:
                 heapq.heappop(heap) # O(logK time)
         # Return the kth largest element
         return heap[0]
+# Alternate - Quick select (Average case O(N) and worst case O(N2))
